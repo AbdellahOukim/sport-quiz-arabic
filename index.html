@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QA game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="questions.js"></script>
+    <script defer src="main.js" type="module"></script>
+  </head>
+  <body dir="rtl">
+    <div class="game_container">
+      <div class="start_box">
+        <h2>مرحبا ! ، قم باختبار ثقافتك الرياضية</h2>
+        <button id="start-btn" class="btn">إبدأ الآن </button>
+      </div>
+      <div class="main_box hide">
+        <div class="questions"></div>
+        <div class="answers"></div>
+        <button id="next-btn" class="btn">التالي</button>
+      </div>
+    </div>
+  </body>
+</html>
